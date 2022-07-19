@@ -1,5 +1,5 @@
-const getAllUsers = (req, res) => {
+const getAllUsersController = (req, res) => {
 	res.json({ msg: "Hola edar" });
 };
 
-module.exports = getAllUsers;
+module.exports = getAllUsersController;

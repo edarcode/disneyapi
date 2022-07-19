@@ -1,12 +1,13 @@
 const { DataTypes } = require("sequelize");
 const { admin, user } = require("../constants/roles");
+const { active, inactive } = require("../constants/states");
 module.exports = sequelize => {
 	sequelize.define(
 		"User",
 		{
 			state: {
-				type: DataTypes.BOOLEAN,
-				defaultValue: true
+				type: DataTypes.ENUM(active, inactive),
+				defaultValue: active
 			},
 			role: {
 				type: DataTypes.ENUM(admin, user),
