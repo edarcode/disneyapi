@@ -53,9 +53,20 @@ modelDefiners.forEach(model => model(sequelize));
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
 
-const {} = sequelize.models;
+const { Character, Film } = sequelize.models;
 
 // Relaciones
+
+Character.belongsToMany(Film, {
+	through: "Character_Film",
+	timestamps: false,
+	as: "films"
+});
+Film.belongsToMany(Character, {
+	through: "Character_Film",
+	timestamps: false,
+	as: "characters"
+});
 
 module.exports = {
 	Op,
