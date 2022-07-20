@@ -5,7 +5,8 @@
 			"age": 16,
 			"weight": "",
 			"history": "El personaje está basado en la protagonista del cuento de Hans Christian Andersen, La sirenita, pero se le otorgó una personalidad diferente para que fuera posible su adaptación en la película animada de 1989. Su apariencia física es el de una sirena y se caracteriza por tener una larga cabellera roja, ojos calipso, una cola turquesa, y además, posee en el pecho un bikini de conchas color púrpura.",
-			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658260928/disney/ariel_gnoglt.webp"
+			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658260928/disney/ariel_gnoglt.webp",
+			"films": [1]
 		}
 	]
 }

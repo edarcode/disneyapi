@@ -16,7 +16,7 @@ module.exports = sequelize => {
 				type: DataTypes.REAL
 			},
 			history: {
-				type: DataTypes.STRING,
+				type: DataTypes.TEXT,
 				allowNull: false
 			},
 			img: {
