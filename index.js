@@ -21,6 +21,7 @@ require("dotenv").config();
 const server = require("./src/server.js");
 const { conn } = require("./src/db.js");
 const transporter = require("./src/config/nodemailer.js");
+const { fillGenres } = require("./src/utils/fillGenres.js");
 const PORT = process.env.PORT;
 
 // Syncing all the models at once.
@@ -28,7 +29,7 @@ conn.sync({ force: true }).then(() => {
 	server.listen(PORT, async () => {
 		try {
 			await transporter.verify();
-			console.log("Ready for send emails");
+			await fillGenres();
 			console.log(`%s listening at ${PORT}`); // eslint-disable-line no-console
 		} catch (error) {
 			console.log(error);
