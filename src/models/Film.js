@@ -14,7 +14,12 @@ module.exports = sequelize => {
 			},
 			score: {
 				type: DataTypes.REAL,
-				allowNull: false
+				allowNull: false,
+				defaultValue: 1,
+				validate: {
+					min: 1,
+					max: 5
+				}
 			},
 			img: {
 				type: DataTypes.STRING,

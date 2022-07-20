@@ -1,0 +1,16 @@
+{
+	"films": [
+		{
+			"title": "La sirenita",
+			"creationDate": "1989-11-15",
+			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658301806/disney/la_sirenita_he1bmy.webp",
+			"genres": [2, 3]
+		},
+		{
+			"title": "El rey león",
+			"creationDate": "1994-06-15",
+			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658301821/disney/el_rey_leon_czkkme.webp",
+			"genres": [3, 4]
+		}
+	]
+}
