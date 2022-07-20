@@ -1,0 +1,20 @@
+{
+	"genres": [
+		{
+			"name": "comedia",
+			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658278357/disney/comedia_btodnt.webp"
+		},
+		{
+			"name": "fantasia",
+			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658278719/disney/fantasia_m1hbly.webp"
+		},
+		{
+			"name": "musical",
+			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658278915/disney/musical_o1m60o.webp"
+		},
+		{
+			"name": "aventura",
+			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658279081/disney/aventura_stesxv.webp"
+		}
+	]
+}

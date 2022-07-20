@@ -13,8 +13,7 @@ module.exports = sequelize => {
 				allowNull: false
 			},
 			weight: {
-				type: DataTypes.REAL,
-				allowNull: false
+				type: DataTypes.REAL
 			},
 			history: {
 				type: DataTypes.STRING,
