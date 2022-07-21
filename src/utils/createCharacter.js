@@ -12,7 +12,7 @@ module.exports = {
 			}
 		});
 		if (!created) return null;
-		await character.setFilms(films);
+		films && (await character.setFilms(films));
 		return character;
 	}
 };

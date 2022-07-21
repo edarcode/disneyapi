@@ -7,7 +7,7 @@ module.exports = {
 			defaults: { creationDate, img, type }
 		});
 		if (!created) return null;
-		await film.setGenres(genres);
+		genres && (await film.setGenres(genres));
 		return film;
 	}
 };
