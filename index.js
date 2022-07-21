@@ -23,6 +23,7 @@ const { conn } = require("./src/db.js");
 const transporter = require("./src/config/nodemailer.js");
 const { fillGenres } = require("./src/utils/fillGenres.js");
 const { fillFilm } = require("./src/utils/fillFilm.js");
+const { fillCharacter } = require("./src/utils/fillCharacter.js");
 const PORT = process.env.PORT;
 
 // Syncing all the models at once.
@@ -32,6 +33,7 @@ conn.sync({ force: true }).then(() => {
 			await transporter.verify();
 			await fillGenres();
 			await fillFilm();
+			await fillCharacter();
 			console.log(`%s listening at ${PORT}`); // eslint-disable-line no-console
 		} catch (error) {
 			console.log(error);

@@ -9,8 +9,7 @@ module.exports = sequelize => {
 				unique: true
 			},
 			age: {
-				type: DataTypes.INTEGER,
-				allowNull: false
+				type: DataTypes.INTEGER
 			},
 			weight: {
 				type: DataTypes.REAL
