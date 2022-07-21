@@ -2,13 +2,14 @@ const { charactersPerPage } = require("../constants/perPage");
 const { Character, Film, Op } = require("../db");
 
 module.exports = {
-	getAllCharacters: async ({ page = 0, name, age, weight, films }) => {
+	getAllCharacters: async ({ page = 0, name, age, weight, movies }) => {
 		const { count, rows } = await Character.findAndCountAll({
 			where: where({ name, age, weight }),
 			offset: charactersPerPage * page,
 			limit: charactersPerPage,
 			attributes: ["id", "img", "name"],
-			include: include({ films })
+			include: include({ movies }),
+			distinct: true
 		});
 		const data = {
 			pageCount: Math.ceil(count / charactersPerPage),
@@ -40,19 +41,16 @@ function where({ name, age, weight }) {
 	}
 	return result;
 }
-function include({ films }) {
-	let result = [];
-	if (films) {
-		const filmsJs = JSON.parse(films);
-		result = [
-			{
-				model: Film,
-				as: "films",
-				where: { id: { [Op.and]: filmsJs } },
-				attributes: [],
-				through: { attributes: [] }
-			}
-		];
+function include({ movies }) {
+	const result = [];
+	if (movies) {
+		result.push({
+			model: Film,
+			as: "films",
+			where: { id: movies },
+			attributes: [],
+			through: { attributes: [] }
+		});
 	}
 	return result;
 }
