@@ -1,8 +1,13 @@
 const { DataTypes } = require("sequelize");
+const { movie, serie } = require("../constants/typesFilm");
 module.exports = sequelize => {
 	sequelize.define(
 		"Film",
 		{
+			type: {
+				type: DataTypes.ENUM(movie, serie),
+				allowNull: false
+			},
 			title: {
 				type: DataTypes.STRING,
 				allowNull: false,

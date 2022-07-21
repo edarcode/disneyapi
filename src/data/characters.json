@@ -3,10 +3,74 @@
 		{
 			"name": "ariel",
 			"age": 16,
-			"weight": "",
+			"weight": null,
 			"history": "El personaje está basado en la protagonista del cuento de Hans Christian Andersen, La sirenita, pero se le otorgó una personalidad diferente para que fuera posible su adaptación en la película animada de 1989. Su apariencia física es el de una sirena y se caracteriza por tener una larga cabellera roja, ojos calipso, una cola turquesa, y además, posee en el pecho un bikini de conchas color púrpura.",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658260928/disney/ariel_gnoglt.webp",
 			"films": [1]
+		},
+		{
+			"name": "scar",
+			"age": null,
+			"weight": null,
+			"history": "Como se reveló en A Tale of Two Brothers, Scar fue una vez nombrado Taka, y se había vuelto molesto cuando se enteró de que su hermano mayor Mufasa fue elegido para ser rey sobre sí mismo. Vaguea para hablar con tres hienas llamadas Shenzi, Banzai y Ed, que le dicen que si Mufasa se hace parecer un fracaso, entonces se verá real en comparación y pronto tomar el trono.",
+			"img": "https://i.pinimg.com/originals/89/22/7c/89227c5ac2cca162f7c08be4533af11a.png",
+			"films": [2]
+		},
+		{
+			"name": "anton ego",
+			"age": null,
+			"weight": null,
+			"history": "Es un crítico de cocina muy famoso en Francia, esta empeñado en cerrar el restaurante Gusteau criticando su comida de malísima forma, cuando se entera de que Linguini es el que ha hecho popular el restaurante, cuando llega y prueba el Ratatouille de Remy se queda encantado y hace una buena crítica. Tras que Skinner y el inspector de sanidad delatan de que había ratas en el restaurante, Ego pierde su empleo de critico, pero va al nuevo restaurante de Linguini para probar la comida de Remy.",
+			"img": "https://pbs.twimg.com/profile_images/628199242146840576/iWAlE_oW_400x400.jpg",
+			"films": [3]
+		},
+		{
+			"name": "lumiere",
+			"age": null,
+			"weight": null,
+			"history": "Es uno de los sirvientes de Bestia, de origen francés. Cuando la Hechicera encantó el castillo, él fue convertido en candelabro. Es el alma del castillo; es simpático, lanzado, picarón, entrañable y ligón. Por lo que a veces saca de quicio a Din Don. Tiene como novia a Fifí, la doncella del castillo.",
+			"img": "https://static.wikia.nocookie.net/disney/images/1/19/Lumiere.png/revision/latest/top-crop/width/360/height/360?cb=20120926142141&path-prefix=es",
+			"films": [4]
+		},
+		{
+			"name": "cruella de vil",
+			"age": null,
+			"weight": null,
+			"history": "Cruella es una antigua amiga del colegio de Anita Radcliffe y una heredera obsesionada con el glamour que afirma que no puede vivir sin pieles. Contrata a Horacio y Gaspar Badun, dos ladrones incompetentes, para robar los 15 cachorros de dálmata de Pongo y Perdita, y compra 84 más por medios legítimos.",
+			"img": "https://static.wikia.nocookie.net/disney/images/9/92/Profile_-_Cruella.png/revision/latest/top-crop/width/360/height/360?cb=20210224000255&path-prefix=es",
+			"films": [5]
+		},
+		{
+			"name": "mamá coco",
+			"age": null,
+			"weight": null,
+			"history": "Socorro, mejor conocida como Mamá Coco, es un personaje de la película Coco. Es una cálida, apacible y tierna mujer que es la bisabuela de Miguel.",
+			"img": "https://holatelcel.com/wp-content/uploads/2021/10/mama-coco.jpg",
+			"films": [6]
+		},
+		{
+			"name": "golfo",
+			"age": null,
+			"weight": null,
+			"history": "Es un perro callejero que enseña a Reina la vida de un perro vagabundo. Al salvar al bebé de Jaimito y Linda de una Rata, los dos humanos aceptan a Golfo en su familia, y él y Reina tienen un cachorro y tres cachorritas.",
+			"img": "https://static.wikia.nocookie.net/disney/images/0/0e/Golfo.png/revision/latest/top-crop/width/360/height/360?cb=20121207163542&path-prefix=es",
+			"films": [7]
+		},
+		{
+			"name": "golfo",
+			"age": null,
+			"weight": null,
+			"history": "Es un perro callejero que enseña a Reina la vida de un perro vagabundo. Al salvar al bebé de Jaimito y Linda de una Rata, los dos humanos aceptan a Golfo en su familia, y él y Reina tienen un cachorro y tres cachorritas.",
+			"img": "https://static.wikia.nocookie.net/disney/images/0/0e/Golfo.png/revision/latest/top-crop/width/360/height/360?cb=20121207163542&path-prefix=es",
+			"films": [7]
+		},
+		{
+			"name": "reina",
+			"age": null,
+			"weight": null,
+			"history": "La Reina Malvada, también llamada la Reina Malvada, es un personaje ficticio y el principal antagonista de Blancanieves, un cuento de hadas alemán registrado por los hermanos Grimm; historias similares existen en todo el mundo.",
+			"img": "http://pm1.narvii.com/6808/3505737ee2c77f487b7ca6cc0df1701eca6a8688v2_00.jpg",
+			"films": [8]
 		}
 	]
 }

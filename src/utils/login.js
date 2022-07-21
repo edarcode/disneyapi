@@ -6,7 +6,6 @@ module.exports = {
 		const user = await User.findOne({
 			where: { email }
 		});
-		console.log(user.password);
 		const isAuth = await comparePassword(password, user.password);
 		if (!isAuth) return null;
 		return user;

@@ -4,49 +4,57 @@
 			"title": "La sirenita",
 			"creationDate": "1989-11-15",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658301806/disney/la_sirenita_he1bmy.webp",
-			"genres": [2, 3]
+			"genres": [2, 3],
+			"type": "movie"
 		},
 		{
 			"title": "El rey león",
 			"creationDate": "1994-06-15",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658301821/disney/el_rey_leon_czkkme.webp",
-			"genres": [3, 4]
+			"genres": [3, 4],
+			"type": "movie"
 		},
 		{
 			"title": "Ratatouille",
 			"creationDate": "2007-06-29",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658306378/disney/ratatouille_roufwm.webp",
-			"genres": [2, 4]
+			"genres": [2, 4],
+			"type": "movie"
 		},
 		{
 			"title": "La Bella y la Bestia",
 			"creationDate": "1991-11-25",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658306691/disney/la_bella_y_la_bestia_fejusx.webp",
-			"genres": [3]
+			"genres": [3],
+			"type": "movie"
 		},
 		{
 			"title": "101 Dalmatas",
 			"creationDate": "1961-01-25",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658307044/disney/dalmatas_euhget.webp",
-			"genres": [4]
+			"genres": [4],
+			"type": "movie"
 		},
 		{
 			"title": "Coco",
 			"creationDate": "2017-01-22",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658307331/disney/coco_whf41o.webp",
-			"genres": [3, 4]
+			"genres": [3, 4],
+			"type": "movie"
 		},
 		{
 			"title": "La Dama y el Vagabundo",
 			"creationDate": "1955-06-22",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658308004/disney/la_dama_y_el_vagabundo_ko4u89.webp",
-			"genres": [3, 4]
+			"genres": [3, 4],
+			"type": "movie"
 		},
 		{
 			"title": "Blancanieves y los siete Enanos",
 			"creationDate": "1938-02-04",
 			"img": "https://res.cloudinary.com/dvmsllkkg/image/upload/v1658308281/disney/blancanieves_atqd6t.webp",
-			"genres": [2, 3]
+			"genres": [2, 3],
+			"type": "movie"
 		}
 	]
 }
