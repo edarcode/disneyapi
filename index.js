@@ -24,10 +24,10 @@ const transporter = require("./src/config/nodemailer.js");
 const { fillGenres } = require("./src/utils/fillGenres.js");
 const { fillFilm } = require("./src/utils/fillFilm.js");
 const { fillCharacter } = require("./src/utils/fillCharacter.js");
-const PORT = process.env.PORT;
+const { PORT, SYNC_DB } = process.env;
 
 // Syncing all the models at once.
-conn.sync({ force: true }).then(() => {
+conn.sync({ force: SYNC_DB }).then(() => {
 	server.listen(PORT, async () => {
 		try {
 			await transporter.verify();
