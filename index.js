@@ -27,7 +27,7 @@ const { fillCharacter } = require("./src/utils/fillCharacter.js");
 const { PORT, SYNC_DB } = process.env;
 
 // Syncing all the models at once.
-conn.sync({ force: false }).then(() => {
+conn.sync({ force: SYNC_DB }).then(() => {
 	server.listen(PORT, async () => {
 		try {
 			await transporter.verify();
