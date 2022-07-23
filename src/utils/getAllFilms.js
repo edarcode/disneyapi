@@ -7,7 +7,7 @@ module.exports = {
 			where: where({ type, name }),
 			offset: filmsPerPage * page,
 			limit: filmsPerPage,
-			attributes: ["id", "title", "creationDate", "score", "img", "type"],
+			attributes: ["id", "title", "creationDate", "img"],
 			include: include({ genre }),
 			distinct: true,
 			order: (order && [["creationDate", order]]) || []
